@@ -1,20 +1,15 @@
-.txt-clr {
+.section-clr {
     background-color:rgb(192, 232, 240);
     font-family: monospace, Courier, 'Courier New'
 }
 .emphasis {
     color:#428f9c
 }
-#page {
-    background-color:rgb(236, 252, 255)
-}
 
 body {
     margin-top: 0;
-}
-
-html, body {
     overscroll-behavior: none;
+    background-color:rgb(236, 252, 255)
 }
 
 .nav-link:hover {
