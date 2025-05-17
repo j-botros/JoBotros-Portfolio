@@ -1,18 +1,34 @@
-.section-clr {
-    background-color:rgb(192, 232, 240);
-    font-family: monospace, Courier, 'Courier New'
+.nav-link.active {
+    color:blueviolet;
 }
-.emphasis {
-    color:#428f9c
+header {
+    position: fixed;
+    background: #fffafaeb;;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.section-clr {
+    background-color:#1a1a26;
 }
 
 body {
-    margin-top: 0;
-    overscroll-behavior: none;
-    background-color:rgb(236, 252, 255)
+    background-color:#fffafa;
+    font-weight:200;
+    padding-top: 12px;
+    color:white;
 }
 
 .nav-link:hover {
     color:blueviolet;
-    font-weight:bolder;
+}
+
+#ttl {
+    font-size: 3rem;
+    font-weight: 400;
 }
