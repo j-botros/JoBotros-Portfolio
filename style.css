@@ -4,7 +4,7 @@
 
 header {
     position: fixed;
-    background: #fffafaeb;
+    background: #000000ad;
     top: 0;
     width: 100%;
     z-index: 9999;
@@ -12,7 +12,7 @@ header {
 
 a {
     text-decoration: none;
-    color:black;
+    color:white;
 }
 
 .section-clr {
@@ -26,13 +26,14 @@ a {
 }
 
 body {
-    background-color:#fffafa;
+    background-color:#000000;
     font-weight:200;
     color:white;
+    overscroll-behavior-y: none;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 80px;
     font-weight: 900;
 }
 
@@ -67,4 +68,13 @@ p, li {
     color: white;
     width: 175px;
     height: 150px;
+}
+
+button {
+    width: 150px;
+    height: 70px;
+    background-color:#262640;
+    border: 2px solid #e87500;
+    justify-content: center;
+    align-items: center;
 }
