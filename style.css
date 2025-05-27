@@ -46,8 +46,21 @@ h4 {
     border-bottom: 4px solid #e87500;
 }
 
-.nav-link:hover {
-    color:blueviolet;
+#mainNavbar .nav-link:not(.active){
+  color:white;
+}
+
+.navbar .nav-link.active{
+  color: #ad75ff !important;     /* override Bootstrap’s white */
+  font-weight: 600;
+  position: relative;
+}
+
+.navbar .nav-link.active::after{
+  content: '';
+  position: absolute;
+  height: 2px;
+  background: currentColor;
 }
 
 .text-justify {
@@ -99,5 +112,21 @@ h4 {
     margin: 0.5rem;
     border: 3px solid #e87500;
     background-color: #262640;
+    color: white;
+}
+.personal:hover {
+    border: 3px solid #e87500;
+    background-color: #3a3a75;
+}
+
+.btn.skillpush {
+    border: 0px;
+    background-color: #3838c7;
+}
+.btn.active {
+    background-color: #2f2f9a;
+}
+.btn.skillpush:hover {
+    background-color: #4444ff;
     color: white;
 }
